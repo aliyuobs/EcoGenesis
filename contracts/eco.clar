@@ -155,7 +155,7 @@
 (define-public (register-organism 
                 (common-name (string-ascii 50))
                 (scientific-name (string-ascii 100))
-                (initial-population (uint))
+                (initial-population uint)
                 (host-biome-id uint)
                 (preservation-state (string-ascii 20)))
     (begin
